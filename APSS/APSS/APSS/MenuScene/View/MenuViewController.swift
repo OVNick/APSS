@@ -138,7 +138,10 @@ class MenuViewController: UIViewController {
         setupSubviews()
         setupConstraints()
     }
+    
+    
 }
+
 
 // MARK: - MenuViewInput
 extension MenuViewController: MenuViewInput {
@@ -148,6 +151,7 @@ extension MenuViewController: MenuViewInput {
         
     }
 }
+
 
 // MARK: - Private
 private extension MenuViewController {
@@ -197,4 +201,6 @@ private extension MenuViewController {
             analyticsButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
         ])
     }
+    
+    
 }

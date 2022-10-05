@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+/// Входящий протокол интерактора  сцены "Меню".
+protocol MenuInteractorInput {
+    /// Загрузить идентификатор выбранного элемента в DataManager.
+    func saveIdentifier(identifier: String)
+}

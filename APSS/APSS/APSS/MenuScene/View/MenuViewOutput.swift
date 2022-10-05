@@ -11,4 +11,5 @@ import Foundation
 protocol MenuViewOutput: AnyObject {
     ///  Обработать нажатие на элемент.
     func tapAction(identifier: String)
+    
 }

@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+/// Исходящий протокол сцены "Заказы".
+protocol OrdersViewOutput: AnyObject {
+    ///  Обработать нажатие на элемент.
+    func tapAction(identifier: String)
+    
+}

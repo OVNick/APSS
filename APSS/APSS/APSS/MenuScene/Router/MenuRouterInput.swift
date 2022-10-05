@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+/// Входящий протокол роутера сцены "Меню".
+protocol MenuRouterInput {
+    /// Открыть следующую сцену.
+    func openNextScene()
+}
