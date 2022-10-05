@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+/// Исходящий протокол сцены "Меню".
+protocol MenuViewOutput: AnyObject {
+    ///  Обработать нажатие на элемент.
+    func tapAction(identifier: String)
+}

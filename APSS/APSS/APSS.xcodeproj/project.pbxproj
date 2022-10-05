@@ -22,6 +22,19 @@
 		A86F946228E9C85300F8DB13 /* MenuViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F946128E9C85300F8DB13 /* MenuViewInput.swift */; };
 		A86F946428E9C86200F8DB13 /* MenuViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F946328E9C86200F8DB13 /* MenuViewOutput.swift */; };
 		A86F946628E9C87D00F8DB13 /* MenuAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F946528E9C87D00F8DB13 /* MenuAssembly.swift */; };
+		A86F946F28E9C9B000F8DB13 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F946E28E9C9B000F8DB13 /* OrdersViewController.swift */; };
+		A86F947128E9C9E500F8DB13 /* OrdersViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F947028E9C9E500F8DB13 /* OrdersViewInput.swift */; };
+		A86F947328E9C9F600F8DB13 /* OrdersViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F947228E9C9F600F8DB13 /* OrdersViewOutput.swift */; };
+		A86F947528E9CA0E00F8DB13 /* OrdersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F947428E9CA0E00F8DB13 /* OrdersPresenter.swift */; };
+		A86F947728E9CA2A00F8DB13 /* OrdersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F947628E9CA2A00F8DB13 /* OrdersInteractor.swift */; };
+		A86F947928E9CA4000F8DB13 /* OrdersInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F947828E9CA4000F8DB13 /* OrdersInteractorInput.swift */; };
+		A86F947B28E9CA6F00F8DB13 /* OrdersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F947A28E9CA6F00F8DB13 /* OrdersService.swift */; };
+		A86F947D28E9CA8800F8DB13 /* OrdersServiceInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F947C28E9CA8800F8DB13 /* OrdersServiceInput.swift */; };
+		A86F947F28E9CAA100F8DB13 /* OrdersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F947E28E9CAA100F8DB13 /* OrdersAssembly.swift */; };
+		A86F948128E9CAB700F8DB13 /* OrdersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F948028E9CAB700F8DB13 /* OrdersRouter.swift */; };
+		A86F948328E9CACC00F8DB13 /* OrdersRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F948228E9CACC00F8DB13 /* OrdersRouterInput.swift */; };
+		A86F948628EB3F1400F8DB13 /* MenuItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F948528EB3F1400F8DB13 /* MenuItemsModel.swift */; };
+		A86F948928EB4ABE00F8DB13 /* MenuItemsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F948828EB4ABE00F8DB13 /* MenuItemsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +55,19 @@
 		A86F946128E9C85300F8DB13 /* MenuViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewInput.swift; sourceTree = "<group>"; };
 		A86F946328E9C86200F8DB13 /* MenuViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewOutput.swift; sourceTree = "<group>"; };
 		A86F946528E9C87D00F8DB13 /* MenuAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAssembly.swift; sourceTree = "<group>"; };
+		A86F946E28E9C9B000F8DB13 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		A86F947028E9C9E500F8DB13 /* OrdersViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewInput.swift; sourceTree = "<group>"; };
+		A86F947228E9C9F600F8DB13 /* OrdersViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewOutput.swift; sourceTree = "<group>"; };
+		A86F947428E9CA0E00F8DB13 /* OrdersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPresenter.swift; sourceTree = "<group>"; };
+		A86F947628E9CA2A00F8DB13 /* OrdersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersInteractor.swift; sourceTree = "<group>"; };
+		A86F947828E9CA4000F8DB13 /* OrdersInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersInteractorInput.swift; sourceTree = "<group>"; };
+		A86F947A28E9CA6F00F8DB13 /* OrdersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersService.swift; sourceTree = "<group>"; };
+		A86F947C28E9CA8800F8DB13 /* OrdersServiceInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersServiceInput.swift; sourceTree = "<group>"; };
+		A86F947E28E9CAA100F8DB13 /* OrdersAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersAssembly.swift; sourceTree = "<group>"; };
+		A86F948028E9CAB700F8DB13 /* OrdersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersRouter.swift; sourceTree = "<group>"; };
+		A86F948228E9CACC00F8DB13 /* OrdersRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersRouterInput.swift; sourceTree = "<group>"; };
+		A86F948528EB3F1400F8DB13 /* MenuItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsModel.swift; sourceTree = "<group>"; };
+		A86F948828EB4ABE00F8DB13 /* MenuItemsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +100,11 @@
 		A86F943528E9C28600F8DB13 /* APSS */ = {
 			isa = PBXGroup;
 			children = (
+				A86F948A28EDCF6600F8DB13 /* Model */,
 				A86F944A28E9C5BC00F8DB13 /* AppFiles */,
 				A86F944B28E9C5DD00F8DB13 /* Resources */,
 				A86F944C28E9C5FE00F8DB13 /* MenuScene */,
+				A86F946728E9C8E500F8DB13 /* OrdersScene */,
 				A86F944128E9C28600F8DB13 /* LaunchScreen.storyboard */,
 				A86F944428E9C28600F8DB13 /* Info.plist */,
 			);
@@ -159,11 +187,102 @@
 		A86F945228E9C6B900F8DB13 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A86F948728EB4AAA00F8DB13 /* Cell */,
+				A86F948428EB3EEE00F8DB13 /* Model */,
 				A86F943A28E9C28600F8DB13 /* MenuViewController.swift */,
 				A86F946128E9C85300F8DB13 /* MenuViewInput.swift */,
 				A86F946328E9C86200F8DB13 /* MenuViewOutput.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A86F946728E9C8E500F8DB13 /* OrdersScene */ = {
+			isa = PBXGroup;
+			children = (
+				A86F946D28E9C98C00F8DB13 /* View */,
+				A86F946C28E9C98500F8DB13 /* Presenter */,
+				A86F946B28E9C97B00F8DB13 /* Interactor */,
+				A86F946A28E9C97000F8DB13 /* Service */,
+				A86F946928E9C96400F8DB13 /* Assembly */,
+				A86F946828E9C95700F8DB13 /* Router */,
+			);
+			path = OrdersScene;
+			sourceTree = "<group>";
+		};
+		A86F946828E9C95700F8DB13 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A86F948028E9CAB700F8DB13 /* OrdersRouter.swift */,
+				A86F948228E9CACC00F8DB13 /* OrdersRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A86F946928E9C96400F8DB13 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				A86F947E28E9CAA100F8DB13 /* OrdersAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		A86F946A28E9C97000F8DB13 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A86F947A28E9CA6F00F8DB13 /* OrdersService.swift */,
+				A86F947C28E9CA8800F8DB13 /* OrdersServiceInput.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A86F946B28E9C97B00F8DB13 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A86F947628E9CA2A00F8DB13 /* OrdersInteractor.swift */,
+				A86F947828E9CA4000F8DB13 /* OrdersInteractorInput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A86F946C28E9C98500F8DB13 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A86F947428E9CA0E00F8DB13 /* OrdersPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A86F946D28E9C98C00F8DB13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A86F946E28E9C9B000F8DB13 /* OrdersViewController.swift */,
+				A86F947028E9C9E500F8DB13 /* OrdersViewInput.swift */,
+				A86F947228E9C9F600F8DB13 /* OrdersViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A86F948428EB3EEE00F8DB13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A86F948528EB3F1400F8DB13 /* MenuItemsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A86F948728EB4AAA00F8DB13 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A86F948828EB4ABE00F8DB13 /* MenuItemsCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A86F948A28EDCF6600F8DB13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,16 +355,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86F947528E9CA0E00F8DB13 /* OrdersPresenter.swift in Sources */,
 				A86F945628E9C75900F8DB13 /* MenuInteractor.swift in Sources */,
+				A86F948328E9CACC00F8DB13 /* OrdersRouterInput.swift in Sources */,
 				A86F943B28E9C28600F8DB13 /* MenuViewController.swift in Sources */,
+				A86F948628EB3F1400F8DB13 /* MenuItemsModel.swift in Sources */,
 				A86F946028E9C83900F8DB13 /* MenuRouterInput.swift in Sources */,
+				A86F946F28E9C9B000F8DB13 /* OrdersViewController.swift in Sources */,
+				A86F947728E9CA2A00F8DB13 /* OrdersInteractor.swift in Sources */,
+				A86F947F28E9CAA100F8DB13 /* OrdersAssembly.swift in Sources */,
+				A86F948928EB4ABE00F8DB13 /* MenuItemsCell.swift in Sources */,
 				A86F945E28E9C82A00F8DB13 /* MenuRouter.swift in Sources */,
+				A86F947928E9CA4000F8DB13 /* OrdersInteractorInput.swift in Sources */,
+				A86F948128E9CAB700F8DB13 /* OrdersRouter.swift in Sources */,
 				A86F946228E9C85300F8DB13 /* MenuViewInput.swift in Sources */,
+				A86F947128E9C9E500F8DB13 /* OrdersViewInput.swift in Sources */,
+				A86F947D28E9CA8800F8DB13 /* OrdersServiceInput.swift in Sources */,
 				A86F945828E9C7DB00F8DB13 /* MenuInteractorInput.swift in Sources */,
 				A86F943728E9C28600F8DB13 /* AppDelegate.swift in Sources */,
 				A86F943928E9C28600F8DB13 /* SceneDelegate.swift in Sources */,
 				A86F946428E9C86200F8DB13 /* MenuViewOutput.swift in Sources */,
+				A86F947B28E9CA6F00F8DB13 /* OrdersService.swift in Sources */,
 				A86F945A28E9C7FD00F8DB13 /* MenuService.swift in Sources */,
+				A86F947328E9C9F600F8DB13 /* OrdersViewOutput.swift in Sources */,
 				A86F946628E9C87D00F8DB13 /* MenuAssembly.swift in Sources */,
 				A86F945428E9C73B00F8DB13 /* MenuPresenter.swift in Sources */,
 				A86F945C28E9C80E00F8DB13 /* MenuServiceInput.swift in Sources */,
