@@ -8,6 +8,6 @@
 /// Входящий протокол сцены "Заказы".
 protocol OrdersViewInput: AnyObject {
     ///  Установить заказы.
-    func setOrdersItems(ordersItems: OrdersItemsModel)
+    func setOrdersItems(ordersItems: [OrdersItemsModel])
     
 }

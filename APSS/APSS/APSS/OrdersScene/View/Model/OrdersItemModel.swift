@@ -9,5 +9,5 @@ import Foundation
 
 /// Модель сцены "Заказы".
 struct OrdersItemsModel {
-    
+    let orderNumber: String
 }

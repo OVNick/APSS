@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A83C0C3A28F33B8E00BA04AE /* OrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C0C3928F33B8E00BA04AE /* OrdersCell.swift */; };
 		A86F943728E9C28600F8DB13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F943628E9C28600F8DB13 /* AppDelegate.swift */; };
 		A86F943928E9C28600F8DB13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F943828E9C28600F8DB13 /* SceneDelegate.swift */; };
 		A86F943B28E9C28600F8DB13 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F943A28E9C28600F8DB13 /* MenuViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A83C0C3928F33B8E00BA04AE /* OrdersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersCell.swift; sourceTree = "<group>"; };
 		A86F943328E9C28600F8DB13 /* APSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86F943628E9C28600F8DB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A86F943828E9C28600F8DB13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A83C0C3B28F33B9500BA04AE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A83C0C3928F33B8E00BA04AE /* OrdersCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		A86F942A28E9C28600F8DB13 = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +238,7 @@
 		A86F946D28E9C98C00F8DB13 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A83C0C3B28F33B9500BA04AE /* Cell */,
 				A8FBEBF228EDE00300B8791B /* Model */,
 				A86F946E28E9C9B000F8DB13 /* OrdersViewController.swift */,
 				A86F947028E9C9E500F8DB13 /* OrdersViewInput.swift */,
@@ -332,6 +343,7 @@
 			files = (
 				A8FBEBF428EDE03C00B8791B /* OrdersItemModel.swift in Sources */,
 				A86F947528E9CA0E00F8DB13 /* OrdersPresenter.swift in Sources */,
+				A83C0C3A28F33B8E00BA04AE /* OrdersCell.swift in Sources */,
 				A86F945628E9C75900F8DB13 /* MenuInteractor.swift in Sources */,
 				A86F948328E9CACC00F8DB13 /* OrdersRouterInput.swift in Sources */,
 				A8FBEBF128EDD08900B8791B /* DataManager.swift in Sources */,
