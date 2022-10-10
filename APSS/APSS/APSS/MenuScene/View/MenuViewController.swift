@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MenuViewController: UIViewController {
+final class MenuViewController: UIViewController {
     
     ///  Модель сцены "Меню".
     private var menuItemsModel = MenuItemsModel()
@@ -101,7 +101,6 @@ class MenuViewController: UIViewController {
     }()
     
     @objc func ordersButtonAction(sender: UIButton!) {
-        print("Заказы tapped")
         output?.tapAction(identifier: "ordersButtonTapped")
     }
     
@@ -134,7 +133,8 @@ class MenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .systemGray6
+
+        controllerSetting()
         setupSubviews()
         setupConstraints()
     }
@@ -156,7 +156,7 @@ extension MenuViewController: MenuViewInput {
 // MARK: - Private
 private extension MenuViewController {
     /// Установка Subview.
-    func setupSubviews() {
+    private func setupSubviews() {
         [
             ordersButton,
             drawingButton,
@@ -168,7 +168,7 @@ private extension MenuViewController {
     }
     
     /// Установка констрейнтов для кнопок.
-    func setupConstraints() {
+    private func setupConstraints() {
         NSLayoutConstraint.activate([
             ordersButton.widthAnchor.constraint(equalToConstant: 256),
             ordersButton.heightAnchor.constraint(equalToConstant: 48),
@@ -200,6 +200,12 @@ private extension MenuViewController {
             analyticsButton.topAnchor.constraint(equalTo: demployeesButton.bottomAnchor, constant: 8),
             analyticsButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
         ])
+    }
+    
+    // Настройка ViewController сцены "Меню".
+    private func controllerSetting() {
+        view.backgroundColor = .systemGray6
+        title = "Меню"
     }
     
     

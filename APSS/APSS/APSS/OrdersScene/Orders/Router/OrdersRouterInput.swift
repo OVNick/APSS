@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// Входящий протокол роутера сцены "Меню".
+/// Входящий протокол роутера сцены "Заказы".
 protocol OrdersRouterInput {
     /// Открыть следующую сцену.
     func openNextScene()

@@ -26,9 +26,9 @@ final class OrdersRouter {
 extension OrdersRouter: OrdersRouterInput {
     // Открываем следующую сцену.
     func openNextScene() {
-        // Временный переход (сцена "Фото" будет заменена на сцену "Профиль пользователя")
-//        let nextVC = PhotoAssembly.makePhotoListVC()
-//        currentVC.navigationController?.pushViewController(nextVC, animated: true)
+        let nextVC = OrderViewerAssembly.makeOrderSceneVC()
+        currentVC.navigationController?.pushViewController(nextVC, animated: true)
+        
     }
     
     

@@ -7,16 +7,16 @@
 
 import UIKit
 
-class OrdersViewController: UIViewController {
+final class OrdersViewController: UIViewController {
     
     private let cellIdentifire = "OrdersCell"
     
     ///  Модель сцены "Заказы".
     private var ordersItemsModel: [OrdersItemsModel] = [
-        OrdersItemsModel(orderNumber: "20-01-2292"),
-        OrdersItemsModel(orderNumber: "21-02-0992"),
-        OrdersItemsModel(orderNumber: "22-09-7777"),
-        OrdersItemsModel(orderNumber: "22-10-8888"),
+        OrdersItemsModel(orderNumber: "20-01-2292", customer: "Иванов Иван Иванович", inspector: "Онучин Николай Васильевич"),
+        OrdersItemsModel(orderNumber: "21-02-0992", customer: "Иванов Иван Иванович", inspector: "Онучин Николай Васильевич"),
+        OrdersItemsModel(orderNumber: "22-09-7777", customer: "Иванов Иван Иванович", inspector: "Онучин Николай Васильевич"),
+        OrdersItemsModel(orderNumber: "22-10-8888", customer: "Иванов Иван Иванович", inspector: "Онучин Николай Васильевич"),
     ]
     
     ///  Свойство, обрабатывающее исходящие события.
@@ -33,6 +33,8 @@ class OrdersViewController: UIViewController {
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        controllerSetting()
         setupSubviews()
         setupConstraints()
     }
@@ -65,12 +67,12 @@ extension OrdersViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        // Определяем id выбранного пользователя.
-//        let userId = friends[indexPath.row].id
-//        // Обрабатываем нажатие на ячейку.
-//        output?.cellTapAction(userId: userId)
-//    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // Определяем идентификатор выбранного элемента.
+        let identifier = ordersItemsModel[indexPath.row].orderNumber
+        // Обрабатываем нажатие на ячейку.
+        output?.tapAction(identifier: identifier)
+    }
 }
 
 
@@ -109,6 +111,12 @@ private extension OrdersViewController {
             tableView.leftAnchor.constraint(equalTo: view.leftAnchor),
             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
+    }
+    
+    // Настройка ViewController сцены "Заказы".
+    private func controllerSetting() {
+        view.backgroundColor = .systemGray6
+        title = "Заказы"
     }
     
     
